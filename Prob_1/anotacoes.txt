@@ -1,0 +1,29 @@
+Faer uma população de 100 regras individuais
+
+todas elas tem 149 bits -> isso daria 2^149 possibilidades
+
+o tempo eh 300 passos
+
+o raio é 2, mas deixa aberto para 3 tambem
+
+testa para uma quantidade de 100 estados iniciais tb, selecionando toda vez
+-> evitar overfitting
+
+fazer as regras ter
+00000000000
+11111111111
+11111111011
+00000000100
+01010101010
+
+editar com crescimento de i, modificação de 1 0
+i=0 
+rand de probab (0 a 100) se for menor que i eu coloco 0
+
+100 gerações
+
+saida do ag ordena e pega as 10 melhores regras
+
+no final fazer um teste mais forte
+
+amostra de 10.000 CIs aleatoria 
